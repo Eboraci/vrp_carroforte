@@ -26,7 +26,7 @@ end
 -----------------------------------------------------------------------------------------------------------------------------------------
 function func.check_policia()
     local source = source
-	local user_id = vRP.getUserId(source)
+    local user_id = vRP.getUserId(source)
     local policia = vRP.getUsersByPermission("policia.permissao")
     if user_id then
         if #policia >= 4 then
