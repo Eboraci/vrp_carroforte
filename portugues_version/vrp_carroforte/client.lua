@@ -222,9 +222,9 @@ function dinheiro_tick(variavel, variavel_2, variavel_3)
       ClearAllBlipRoutes()
       func.pagamento()
       Wait(20000)
-      AddExplosion(x, y, z, 8, 100.0, true, false, 10.0)
-      AddExplosion(a, b, c, 8, 100.0, true, false, 10.0)
-      AddExplosion(d, e, f, 8, 100.0, true, false, 10.0)
+      DeleteEntity(x, y, z, 8, 100.0, true, false, 10.0)
+      DeleteEntity(a, b, c, 8, 100.0, true, false, 10.0)
+      DeleteEntity(d, e, f, 8, 100.0, true, false, 10.0)
       hackeando = false
       break
     end
